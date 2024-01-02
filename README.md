@@ -30,4 +30,5 @@ Script execution:
     Writes the results in CSV and Mega files.
 
 The script searches for PDB files in a specific folder, loads the structures using PyMOL, calculates RMSD between them, and stores the results in matrices and output files. It is important to have PyMOL installed and configured correctly for the script to function properly.
+
 **IMPORTANT: Please change pdb_files = glob.glob(r'PDB\FOLDER\*.pdb') to the folder where the pdb files are located
